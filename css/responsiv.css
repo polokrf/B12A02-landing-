@@ -11,4 +11,25 @@
   .nonea{
     display: block;
   }
+
+  /* banner area */
+  .banner{
+    flex-direction: column-reverse;
+    height: 100%;
+   
+  }
+  .banner-image{
+    margin-bottom: 50px;
+  }
+  
+  .banner-title{
+    width: 100%;
+    padding: 10px;
+  }
+  .banner-title h1{
+    font-size: 24px;
+  }
+  .banner-title p{
+    font-size: 14px;
+  }
 }

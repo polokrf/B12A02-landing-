@@ -14,7 +14,7 @@ img{
 .heading{
   max-width: 1140px;
   margin: 50px auto;
- 
+  
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -49,3 +49,36 @@ img{
 .nonea{
   display: none;
 }
+
+/*  * banner style */
+
+.banner{
+  max-width: 1140px;
+  height: 461px;
+  margin: 0px auto 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+ 
+  
+}
+
+.banner-title{
+  width: 50%;
+}
+.banner-title h1{
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.banner-title h1 span{
+  color:#E95A08;
+}
+.banner-title p{
+  font-size: 22px;
+  color: #00000050;
+}
+
+/* *Plants area-style */
