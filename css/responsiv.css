@@ -1,9 +1,11 @@
 @media screen and (max-width: 768px) {
+ 
 
   /* heading area */
   .heading{
     width: 95%;
     margin-top: 30px;
+    
   }
   .navication-bar ul{
     display: none;
@@ -16,20 +18,34 @@
   .banner{
     flex-direction: column-reverse;
     height: 100%;
+    
    
   }
   .banner-image{
     margin-bottom: 50px;
   }
-  
-  .banner-title{
+  .banner-image {
     width: 100%;
-    padding: 10px;
+  }
+  .banner-title{
+    width: 95%;
+   
   }
   .banner-title h1{
     font-size: 24px;
   }
   .banner-title p{
     font-size: 14px;
+  }
+
+  /* Plants area */
+
+  .Plants{
+   width: 100%;
+   padding: 10px;
+
+  }
+  .plants-card-area{
+    grid-template-columns: repeat(2,1fr);
   }
 }
