@@ -43,6 +43,7 @@
   .Plants{
    width: 100%;
    padding: 10px;
+   margin-bottom: 80px;
 
   }
   .plants-card-area{
@@ -55,6 +56,7 @@
     grid-template-columns: repeat(1,1fr);
     width: 95%;
     padding: 10px;
+    margin-bottom: 80px;
     
   }
 
@@ -78,9 +80,16 @@
 
 
   /* *latest-card */
+
+  .latest-title{
+    margin-bottom: 60px;
+  }
+
   .latest-card{
     width: 100%;
+    display: grid;
     grid-template-columns: repeat(1,1fr);
+    margin-bottom: 60px;
   }
   .image1,
   .image2,
@@ -91,6 +100,7 @@
     margin-bottom: 20px;
     
   }
+  
   .image3 h2{
     font-size: 20px;
     font-weight: bold;
@@ -101,6 +111,7 @@
   }
   /* *concat */
   .concat{
+    
     text-align: center;
   }
   .concat-fil{
@@ -112,7 +123,33 @@
   #btn{
     padding: 15px 30px;
   }
-
+/* main-footer */
+  .main-footer{
+    flex-direction: column;
+  }
+  .footer-card,.footer-card1 ,.footer-icon{
+  width:90%;
+  margin: 0 auto;
   
+  
+  }
+
+  .footer-icon img{
+    width: 36px;
+  }
+
+  .footer-card ul li{
+    margin-left: 0px;
+  }
+
+  .footer-card{
+  text-align: left;
+  }
+  .footer-area{
+  background-color: #FFFFFF;
+  padding: 50px 0px;
+ 
 }
+}
+
 
