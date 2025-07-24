@@ -76,4 +76,43 @@
   display:inline-block;
 }
 
+
+  /* *latest-card */
+  .latest-card{
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .image1,
+  .image2,
+  .image3{
+    width: 95%;
+    height: 172px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    
+  }
+  .image3 h2{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .image3 h3{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* *concat */
+  .concat{
+    text-align: center;
+  }
+  .concat-fil{
+    width: 90%;
+  }
+  .concat-title h2{
+    font-size: 20px;
+  }
+  #btn{
+    padding: 15px 30px;
+  }
+
+  
 }
+
