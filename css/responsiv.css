@@ -120,6 +120,9 @@
   .concat-title h2{
     font-size: 20px;
   }
+  .concat-fil input{
+    padding:15px 30px ;
+  }
   #btn{
     padding: 15px 30px;
   }
