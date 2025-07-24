@@ -159,7 +159,7 @@ img{
   grid-template-columns: repeat(2,1fr);
   justify-content:space-between;
   align-items: center;
-  column-gap: 60px;
+  column-gap: 80px;
   
 }
 
