@@ -227,6 +227,9 @@ body{
   color: #00000050;
   
 }
+.latest-title p span{
+  display: block;
+}
 
 
 

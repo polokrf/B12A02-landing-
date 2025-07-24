@@ -114,6 +114,9 @@
   .latest-title p{
     font-size: 14px;
   }
+  .latest-title p span{
+    display: inline;
+  }
   .image1,
   .image2,
   .image3{
