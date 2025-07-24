@@ -122,9 +122,13 @@
   }
   .concat-fil input{
     padding:15px 30px ;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: none;
   }
   #btn{
     padding: 15px 30px;
+    
   }
 /* main-footer */
   .main-footer{
