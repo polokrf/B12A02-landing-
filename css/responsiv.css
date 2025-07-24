@@ -32,7 +32,7 @@
    
   }
   .banner-title h1{
-    font-size: 24px;
+    font-size: 26px;
   }
   .banner-title p{
     font-size: 14px;
@@ -46,8 +46,18 @@
    margin-bottom: 80px;
 
   }
+  .Plants-title h2{
+    font-size: 26px;
+  }
+  .Plants-title p{
+    font-size: 14px;
+  }
   .plants-card-area{
     grid-template-columns: repeat(2,1fr);
+  }
+  .btn{
+  padding: 15px 30px;
+  
   }
 
   /* *about -section */
@@ -66,14 +76,20 @@
 
  }
  .about-title li{
-  list-style-position: inside;  
+  list-style-position: inside; 
+  
+ }
+ .about-title ul li {
+  
+  font-size: 14px; 
  }
  .pos{
    display: none;
  }
  .about-title h2{
-  font-size: 24px;
+  font-size: 26px;
  }
+ 
  .about-title h2 span{
   display:inline-block;
 }
@@ -90,6 +106,12 @@
     display: grid;
     grid-template-columns: repeat(1,1fr);
     margin-bottom: 60px;
+  }
+  .latest-title h2{
+    font-size: 26px;
+  }
+  .latest-title p{
+    font-size: 14px;
   }
   .image1,
   .image2,
@@ -128,7 +150,7 @@
   }
   #btn{
     padding: 15px 30px;
-    
+    transition: 1s;
   }
 /* main-footer */
   .main-footer{
@@ -144,6 +166,9 @@
   .footer-icon img{
     width: 36px;
   }
+  .footer-card1 p{
+  font-size: 16px;
+}
 
   .footer-card ul li{
     margin-left: 0px;
@@ -155,8 +180,9 @@
   .footer-area{
   background-color: #FFFFFF;
   padding: 50px 0px;
- 
+  }
 }
-}
+
+  
 
 
